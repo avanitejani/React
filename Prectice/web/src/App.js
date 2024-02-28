@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Home from './Home';
 import Blog from './Blog';
+import Footer from './Footer';
 
 // import routes, routen and also import index.js in import BrowserRouter  with import in header pade in Link, NavLink
 
@@ -19,6 +20,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
       </Routes>
+      
+      <Footer/>
     </>
   );
 }

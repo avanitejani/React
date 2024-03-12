@@ -2,20 +2,20 @@
 import './App.css';
 
 // import Head from './Head';
-import Header from './01_Header';
-import Contact from './05_Contact';
-import Home from './04_Home';
+// import Header from './01_Header';
+// import Contact from './05_Contact';
+// import Home from './04_Home';
 
 
-import { Routes, Route } from 'react-router-dom'
+// import { Routes, Route } from 'react-router-dom'
 
 
-import { useState } from 'react';
+// import { useState } from 'react';
 
 // import Test from './Test';
 
-import Test from './Test';
-const name = "MyWeb"
+// import Test from './Test';
+// const name = "MyWeb"
 
 
 // 27 feb

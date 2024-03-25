@@ -44,10 +44,11 @@ function App() {
 
     {/* <Header/> */}
 
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/contact' element={<Contact/>} />
-      </Routes> */}
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact/profile' element={<Profile />} />   {/* nasted router */} 
+      </Routes>
 
     </>
   );

@@ -1,0 +1,31 @@
+{
+  "std": [
+    {
+      "id": "1",
+      "name": "avani",
+      "marks": 90
+    },
+    {
+      "id": "2",
+      "name": "hem",
+      "marks": 90
+    },
+    {
+      "id": "3",
+      "name": "moni",
+      "marks": 90
+    },
+    {
+      "id": "a19f",
+      "name": "mirali"
+    },
+    {
+      "id": "5724",
+      "name": "nency"
+    },
+    {
+      "id": "2bd3",
+      "name": "khusi"
+    }
+  ]
+}

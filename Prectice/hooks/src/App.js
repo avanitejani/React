@@ -21,10 +21,15 @@ import Cal from './hooks/calculator/Cal';
 import Useeffect from './hooks/UseEffect/Useeffect';
 import Featch from './hooks/UseEffect/Featch';
 
+
+// api calling 
+import JsonFeatch from './hooks/UseEffect/JsonFeatch';
+import Axios from './hooks/UseEffect/Axios';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
         
 
         {/* // usecontext hook no componet */}
@@ -33,17 +38,19 @@ function App() {
         {/* // EX1 usecontext hook no componet */}
         {/* <ChildA />
 
-        <Comp1/>
+        <Comp1/> */}
 
-        <Main /> */}
+        <Main />
         
         {/* <Cal/> */}
 
         {/* <Useeffect/> */}
 
-        <Featch/>
+      {/* <Featch/> */}
+      {/* <JsonFeatch/> */}
+      <Axios/>
 
-      </header>
+      
     </div>
   );
 }

@@ -15,15 +15,20 @@ const Header = () => {
                   <div className="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                           <li className="nav-item">
-                              {/* <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link> */}
-                              <NavLink activeClassName="active" to={'/'}>
+                              {/* <NavLink className="nav-link active" aria-current="page" to={'/'}>Home</NavLink> */}
+                              <Link activeClassName="active" to={'/'}>
                                   Home <span className="sr-only">(current)</span>
-                              </NavLink>
+                              </Link>
                           </li>
                           <li className="nav-item">
                               <NavLink activeClassName="active" to={'/contact'}>
                                   Contact
                               </NavLink>
+                          </li>
+                          <li className="nav-item">
+                              <Link activeClassName="active" to={'/contact/profile'}>
+                                  profile
+                              </Link>
                           </li>
                           <li className="nav-item">
                               <a className="nav-link" href="#">Link</a>

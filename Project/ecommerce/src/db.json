@@ -1,0 +1,88 @@
+{
+  "user": [
+    {
+      "id": "1455",
+      "name": "avani tejani",
+      "email": "avanitejani@gmail.com",
+      "password": "1234",
+      "isadmin": true
+    },
+    {
+      "id": "d41f",
+      "name": "mithi",
+      "email": "atejani72@gmail.com",
+      "password": "4545",
+      "isadmin": false
+    },
+    {
+      "id": "b215",
+      "name": "anjali",
+      "email": "mithitejani80@gmail.com",
+      "password": "4568",
+      "isadmin": false
+    },
+    {
+      "id": "3f05",
+      "name": "avani tejani",
+      "email": "avanitejani@gmail.com",
+      "password": "1234",
+      "isadmin": true
+    }
+  ],
+  "category": [
+    {
+      "id": "a439",
+      "name": "cloths"
+    },
+    {
+      "id": "380f",
+      "name": "Health and wellness"
+    },
+    {
+      "id": "916e",
+      "name": "Toy"
+    },
+    {
+      "id": "7633",
+      "name": "furniture"
+    },
+    {
+      "id": "279e",
+      "name": "frozen food"
+    }
+  ],
+  "product": [
+    {
+      "id": "262f",
+      "productUrl": "https://i.pinimg.com/236x/ff/69/3d/ff693d4d868a1da7f41b25c9d2092ae1.jpg",
+      "productName": "shinchan",
+      "productPrice": "581",
+      "productQuantity": "193",
+      "productCategory": "furniture"
+    },
+    {
+      "id": "38f9",
+      "productUrl": "https://images.pexels.com/photos/1625169/pexels-photo-1625169.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "productName": "phone",
+      "productPrice": "50000",
+      "productQuantity": "50",
+      "productCategory": "Health and wellness"
+    },
+    {
+      "id": "7409",
+      "productUrl": "https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg",
+      "productName": "food",
+      "productPrice": "249",
+      "productQuantity": "499",
+      "productCategory": "frozen food"
+    },
+    {
+      "id": "6ed5",
+      "productUrl": "https://i.pinimg.com/736x/14/f3/82/14f3822acd9cdfcd595d37592ad0028c.jpg",
+      "productName": "formal",
+      "productPrice": "49999",
+      "productQuantity": "5555",
+      "productCategory": "cloths"
+    }
+  ]
+}

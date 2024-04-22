@@ -1,4 +1,4 @@
-import logo from './logo.svg'; 
+import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -7,6 +7,8 @@ import Firstpage from './components/Firstpage';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom'
 import Potfoliyo from './components/Potfoliyo';
+import Level from './components/Level';
+import About from './components/About';
 
 function App() {
   return (
@@ -20,11 +22,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
-        <Blog />
-        <Route path='Potfoliyo' element={<Potfoliyo/>}/>
-        {/* <Level />
-        <About /> */}
+        <Route path='Potfoliyo' element={<Potfoliyo />} />
       </Routes>
+
+      <Blog />
+      <Level />
+      <About />
+
 
       <Footer />
     </div>

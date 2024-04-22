@@ -8,7 +8,7 @@ import './App.css';
 import ChildA from './hooks/EX1/ChildA';
 
 // yes no 
-import Comp1 from './hooks/yesNo/Comp1';
+import Comp1, { A } from './hooks/yesNo/Comp1';
 
 
 // light and dark mode
@@ -26,7 +26,30 @@ import Featch from './hooks/UseEffect/Featch';
 import JsonFeatch from './hooks/UseEffect/JsonFeatch';
 import Axios from './hooks/UseEffect/Axios';
 
+import Todoclass from './class/Todoclass';
+import PropsType from './propstype/PropsType';
+
+
+
+import UseMemo from './hooks/useMemo/UseMemo';
+
+// loader 
+import Load from './lazy/Load';
+
+// callback hook 
+import Acall from './hooks/callback/Acall';
+
+// passwords 
+import HidShow from './hooks/hideshow/HidShow';
+
+
+
 function App() {
+
+//   const website="MyWeb"
+// const std={name:'avani',age:21}
+
+
   return (
     <div className="App">
       
@@ -40,7 +63,7 @@ function App() {
 
         <Comp1/> */}
 
-        <Main />
+        {/* <Main /> */}
         
         {/* <Cal/> */}
 
@@ -48,7 +71,27 @@ function App() {
 
       {/* <Featch/> */}
       {/* <JsonFeatch/> */}
-      <Axios/>
+
+
+      {/* json server --watch src/db.json --port 8001 */}
+      {/* <Axios/> */}
+
+      {/* <Todoclass/> */}
+
+      {/* <PropsType list={std} site={website } /> */}
+
+      {/* <UseMemo/> */}
+
+
+      {/* <Load/> */}
+
+      {/* <Acall/> */}
+
+      <HidShow/>
+      
+
+
+
 
       
     </div>

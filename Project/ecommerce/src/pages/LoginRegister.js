@@ -82,6 +82,7 @@ const LoginRegister = () => {
 
 
                         localStorage.setItem('user', logindata.data[0].name)
+                        localStorage.setItem('userid', logindata.data[0].id)
                         localStorage.setItem('admin', logindata.data[0].isadmin)
 
                         if (logindata.data[0].isadmin) {

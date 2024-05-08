@@ -1,15 +1,44 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import { useSelector, useDispatch } from 'react-redux';
+import { addToCart, addToCartZero } from '../cartSlice';
 
 const Header = () => {
 
+    const dispatch = useDispatch()
     const [cat, setCat] = useState([])
+    const cart = useSelector((result) => {
+        return result.cart.count;
+    })
+
+    const sumOfKeyValues = (array, key) => {
+        return array.reduce((accumulator, currentValue) => {
+            return accumulator + currentValue[key];
+        }, 0);
+    };
+
     useEffect(() => {
         axios.get(`http://localhost:8000/category`).then((result) => {
             setCat(result.data)
         })
-    })
+    }, [])
+    
+    useEffect(() => {
+        axios.get(`http://localhost:8000/cart?uid=${localStorage.getItem('userid')}`).then((result) => { 
+            console.log(result.data);
+            if (result.data.length === 0) {
+                dispatch(addToCartZero())
+            }
+            else {
+                const sum = sumOfKeyValues(result.data, 'quntity')
+                // console.log(sum);
+                dispatch(addToCartZero())
+                dispatch(addToCart(sum))
+
+            }
+        })
+    },[])
 
   return (
       <>
@@ -126,10 +155,10 @@ const Header = () => {
                               </Link>
                           </div>
 
-                          <a href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
+                          <Link to={'/cart'} href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
                               <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart" /></svg>
-                              <span class="cart-amount d-block position-absolute js-cart-items-count">3</span>
-                          </a>
+                              <span class="cart-amount d-block position-absolute js-cart-items-count">{ cart }</span>
+                          </Link>
 
 
 

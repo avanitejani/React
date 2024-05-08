@@ -1,12 +1,12 @@
-import React,{useContext} from 'react'
-import {A} from './Check1'
+import React, { useContext } from 'react'
+import { A } from './Check1'
 
 const Check2 = () => {
-  const [data] = useContext(A)
+  const [citizen] = useContext(A)
   return (
-      <>
-      <h1>Are you a Citizen <b style={{ color: 'red' }}>{data}</b></h1>  
-      </>
+    <>
+      <h1>Are you a Citizen <b style={{ color: 'red' }}>{citizen}</b></h1>
+    </>
   )
 }
 

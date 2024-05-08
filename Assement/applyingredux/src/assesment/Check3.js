@@ -2,43 +2,50 @@ import React, { useContext } from 'react';
 import { A } from './Check1';
 
 const Check3 = () => {
-  const [data, update] = useContext(A);
+  const [citizen, age] = useContext(A);
+  const [myage, setAge] = age
+  const [citizens, setCitizen] = citizen
 
   const handleFirstCheckboxChange = () => {
-    if (data === 'YES') {
-      update('NO');
+    if (citizens === 'YES') {
+      setCitizen('NO');
     } else {
-      update('YES');
+      setCitizen('YES');
     }
   };
 
   const handleSecondCheckboxChange = () => {
-    if (data === 'NO') {
-      update('YES');
+    if (myage === 'NO') {
+      setAge('YES');
     } else {
-      update('NO');
+      setAge('NO');
     }
   };
 
   return (
     <>
       <h1>
-        {data === 'YES' ? 'Are you a Citizen? NO' : 'Are you over 21? YES'}
+        Are you a Citizen?:
+        {citizen}
+      </h1>
+      <h1>
+        Are you over 21?
+        {mya}
       </h1>
 
       <label>
         <input
           type="checkbox"
-          checked={data === 'YES'}
+          checked={citizens === 'YES'}
           onChange={handleFirstCheckboxChange}
         />
         Are you a Citizen
       </label>
-<br/>
+      <br />
       <label>
         <input
           type="checkbox"
-          checked={data === 'NO'}
+          checked={myage === 'YES'}
           onChange={handleSecondCheckboxChange}
         />
         Are you over 21

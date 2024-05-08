@@ -1,39 +1,35 @@
 {
   "user": [
     {
-      "id": "1455",
+      "id": "b277",
       "name": "avani tejani",
       "email": "avanitejani@gmail.com",
-      "password": "1234",
+      "password": "123",
       "isadmin": true
     },
     {
-      "id": "d41f",
+      "id": "1ecc",
       "name": "mithi",
-      "email": "atejani72@gmail.com",
-      "password": "4545",
-      "isadmin": false
-    },
-    {
-      "id": "b215",
-      "name": "anjali",
       "email": "mithitejani80@gmail.com",
-      "password": "4568",
+      "password": "123",
       "isadmin": false
     },
     {
-      "id": "3f05",
+      "id": "a4c6",
       "name": "avani tejani",
       "email": "avanitejani@gmail.com",
-      "password": "1234",
-      "isadmin": true
+      "password": "123",
+      "isadmin": false
+    },
+    {
+      "id": "7cf5",
+      "name": "mithi",
+      "email": "mithitejani80@gmail.com",
+      "password": "123",
+      "isadmin": false
     }
   ],
   "category": [
-    {
-      "id": "a439",
-      "name": "cloths"
-    },
     {
       "id": "380f",
       "name": "Health and wellness"
@@ -49,40 +45,214 @@
     {
       "id": "279e",
       "name": "frozen food"
+    },
+    {
+      "id": "0658",
+      "name": "Girl's wear"
+    },
+    {
+      "id": "fb51",
+      "name": "Man's wear"
     }
   ],
   "product": [
     {
-      "id": "262f",
-      "productUrl": "https://i.pinimg.com/236x/ff/69/3d/ff693d4d868a1da7f41b25c9d2092ae1.jpg",
-      "productName": "shinchan",
-      "productPrice": "581",
-      "productQuantity": "193",
-      "productCategory": "furniture"
+      "id": "056f",
+      "productUrl": "https://i.pinimg.com/236x/8b/7e/b0/8b7eb06f49d73975d165a0f4b52600c1.jpg",
+      "productName": "formal",
+      "productPrice": "1500",
+      "productQuantity": "459",
+      "productCategory": "Girl's wear"
     },
     {
-      "id": "38f9",
-      "productUrl": "https://images.pexels.com/photos/1625169/pexels-photo-1625169.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "productName": "phone",
-      "productPrice": "50000",
-      "productQuantity": "50",
-      "productCategory": "Health and wellness"
+      "id": "a80c",
+      "productUrl": "https://i.pinimg.com/236x/5b/49/46/5b49469fd21385f2869d5ade94214dbe.jpg",
+      "productName": "formal",
+      "productPrice": "1550",
+      "productQuantity": "500",
+      "productCategory": "Girl's wear"
     },
     {
-      "id": "7409",
-      "productUrl": "https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg",
-      "productName": "food",
-      "productPrice": "249",
-      "productQuantity": "499",
+      "id": "655e",
+      "productUrl": "https://i.pinimg.com/236x/86/11/c3/8611c30da8244cf24e04efde5c05d440.jpg",
+      "productName": "formal",
+      "productPrice": "750",
+      "productQuantity": "550",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "3deb",
+      "productUrl": "https://i.pinimg.com/236x/89/dc/f5/89dcf5b644d93d71c5f95a164068c99f.jpg",
+      "productName": "formal",
+      "productPrice": "800",
+      "productQuantity": "200",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "88e4",
+      "productUrl": "https://i.pinimg.com/474x/4c/0d/94/4c0d946e4c72acae9612669ea2fbc0a8.jpg",
+      "productName": "formal",
+      "productPrice": "900",
+      "productQuantity": "501",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "b621",
+      "productUrl": "https://i.pinimg.com/236x/73/f6/32/73f632eed77448d4d666031b53c73e53.jpg",
+      "productName": "formal",
+      "productPrice": "5500",
+      "productQuantity": "400",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "7687",
+      "productUrl": "https://i.pinimg.com/474x/fe/5b/18/fe5b189cf4ffaf8c0e7680fb4ba52a6e.jpg",
+      "productName": "formal",
+      "productPrice": "5000",
+      "productQuantity": "500",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "ca95",
+      "productUrl": "https://i.pinimg.com/236x/51/2d/52/512d521f815d09512586eff79aa67f0d.jpg",
+      "productName": "sari",
+      "productPrice": "5000",
+      "productQuantity": "500",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "bf3d",
+      "productUrl": "https://i.pinimg.com/236x/b5/88/1a/b5881ad9b26fb422e9563826cb5149b2.jpg",
+      "productName": "treditional",
+      "productPrice": "800",
+      "productQuantity": "500",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "1f5f",
+      "productUrl": "https://i.pinimg.com/236x/07/a5/76/07a57649b394921527c73a5307b6a3ec.jpg",
+      "productName": "kurti",
+      "productPrice": "850",
+      "productQuantity": "401",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "920f",
+      "productUrl": "https://i.pinimg.com/474x/24/60/99/24609930708e09f0e4d4ecd2e665d99e.jpg",
+      "productName": "kurti",
+      "productPrice": "569",
+      "productQuantity": "100",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "306c",
+      "productUrl": "https://i.pinimg.com/474x/51/60/9b/51609b3f1f02e94e2a174a2d0127f1ec.jpg",
+      "productName": "sari",
+      "productPrice": "820",
+      "productQuantity": "60",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "6cd2",
+      "productUrl": "https://i.pinimg.com/474x/ea/f8/88/eaf888fbdc2210a2a17373af225809e1.jpg",
+      "productName": "treditional",
+      "productPrice": "805",
+      "productQuantity": "600",
+      "productCategory": "Girl's wear"
+    },
+    {
+      "id": "30db",
+      "productUrl": "https://i.pinimg.com/236x/7c/d9/99/7cd999829eec71df2f86ba20703ad538.jpg",
+      "productName": "treditional",
+      "productPrice": "5000",
+      "productQuantity": "500",
+      "productCategory": "Man's wear"
+    },
+    {
+      "id": "d51c",
+      "productUrl": "https://i.pinimg.com/236x/9b/fd/07/9bfd075952148b858ff9077030b7a257.jpg",
+      "productName": "casual",
+      "productPrice": "520",
+      "productQuantity": "120",
+      "productCategory": "Man's wear"
+    },
+    {
+      "id": "6de3",
+      "productUrl": "https://i.pinimg.com/474x/3a/30/45/3a30455e8acd660e11e68da6d9a4131a.jpg",
+      "productName": "treditional",
+      "productPrice": "800",
+      "productQuantity": "1221",
+      "productCategory": "Man's wear"
+    },
+    {
+      "id": "627a",
+      "productUrl": "https://i.pinimg.com/236x/e3/71/d9/e371d98650342eb2fce54908f1a60090.jpg",
+      "productName": "treditional",
+      "productPrice": "850",
+      "productQuantity": "200",
+      "productCategory": "Man's wear"
+    },
+    {
+      "id": "bb7e",
+      "productUrl": "https://i.pinimg.com/236x/9c/53/a6/9c53a6af2adb1a8a9f63de596ab3200f.jpg",
+      "productName": "t-shirt",
+      "productPrice": "5000",
+      "productQuantity": "501",
+      "productCategory": "Man's wear"
+    },
+    {
+      "id": "0ca1",
+      "productUrl": "https://i.pinimg.com/236x/72/a0/cf/72a0cfae730adf4189e57391b1676b60.jpg",
+      "productName": "Shirt",
+      "productPrice": "600",
+      "productQuantity": "800",
+      "productCategory": "Man's wear"
+    },
+    {
+      "id": "1352",
+      "productUrl": "https://i.pinimg.com/236x/89/91/cb/8991cb93821da1aba427e3bfa8bab46c.jpg",
+      "productName": "toy-all",
+      "productPrice": "500",
+      "productQuantity": "59",
+      "productCategory": "Toy"
+    },
+    {
+      "id": "c8f5",
+      "productUrl": "https://i.pinimg.com/236x/b1/4e/96/b14e967be4d2d4d121ec19d6de13ea7c.jpg",
+      "productName": "Pizza",
+      "productPrice": "300",
+      "productQuantity": "20",
       "productCategory": "frozen food"
     },
     {
-      "id": "6ed5",
-      "productUrl": "https://i.pinimg.com/736x/14/f3/82/14f3822acd9cdfcd595d37592ad0028c.jpg",
-      "productName": "formal",
-      "productPrice": "49999",
-      "productQuantity": "5555",
-      "productCategory": "cloths"
+      "id": "8907",
+      "productUrl": "https://i.pinimg.com/236x/4b/ed/b2/4bedb2e905e9027b0889f99dfaaf6c95.jpg",
+      "productName": "gym",
+      "productPrice": "900",
+      "productQuantity": "500",
+      "productCategory": "Health and wellness"
+    },
+    {
+      "id": "4539",
+      "productUrl": "https://i.pinimg.com/236x/52/fc/e0/52fce027aaa28e215d0531815c6ed2e8.jpg",
+      "productName": "Table",
+      "productPrice": "5000",
+      "productQuantity": "500",
+      "productCategory": "furniture"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1148",
+      "pid": "bb7e",
+      "uid": "1ecc",
+      "quntity": 2
+    },
+    {
+      "id": "8a76",
+      "pid": "306c",
+      "uid": "1ecc",
+      "quntity": 1
     }
   ]
 }

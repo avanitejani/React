@@ -18,34 +18,38 @@ const Product = () => {
         })
     }
 
-    
+
 
     const deleteProduct = (index) => {
-        navigate(`http://localhost:8000/product${index}`)
-        getProudct()
+        axios.delete(`http://localhost:8000/product/${index}`).then((res) => {
+            getProudct()
+
+        })
+
+
     }
 
     const editProduct = (id) => {
         navigate(`/admin/product/edit/${id}`)
     }
 
-   
 
 
-  return (
-     
-          
-          
-          
-      
 
-     <>
+    return (
+
+
+
+
+
+
+        <>
             <div className="container " >
                 <div className="row">
                     <div className="col-md-6">
-                      <Link to={'/admin/product/add'} className="btn btn-primary my-4">
-                          <i className="fas fa-plus-circle mr-1"></i>Add Product
-                      </Link>
+                        <Link to={'/admin/product/add'} className="btn btn-primary my-4">
+                            <i className="fas fa-plus-circle mr-1"></i>Add Product
+                        </Link>
                     </div>
                 </div>
 
@@ -53,7 +57,7 @@ const Product = () => {
                     <div className="col-md-12">
                         <table className="table table-bordered table-striped">
                             <thead className="thead-dark">
-                               <tr>
+                                <tr>
                                     <th scope="col">Image</th>
                                     <th scope="col">Name</th>
                                     <th scope="col">Price</th>
@@ -64,8 +68,8 @@ const Product = () => {
                             </thead>
 
                             <tbody>
-                              {pro.length !== 0 ? (
-                                  pro.map((res) => (
+                                {pro.length !== 0 ? (
+                                    pro.map((res) => (
                                         <tr key={res.id}>
                                             <td><img height={'50px'} width={'50px'} src={res.productUrl} alt="" /></td>
                                             <td className='fw-bold'>{res.productName}</td>
@@ -85,7 +89,7 @@ const Product = () => {
                                     ))
                                 ) : (
                                     <tr>
-                                          <td colSpan={6} className="text-center text-secondary fw-bold font-monospace fs-3 ">No Product found</td>
+                                        <td colSpan={6} className="text-center text-secondary fw-bold font-monospace fs-3 ">No Product found</td>
                                     </tr>
                                 )}
                             </tbody>
@@ -94,11 +98,11 @@ const Product = () => {
                 </div>
             </div>
         </>
-      
-      
-      
-      
-  )
+
+
+
+
+    )
 }
 
 export default Product

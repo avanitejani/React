@@ -1,20 +1,21 @@
 import React, { createContext, useState } from 'react'
 import Check2 from './Check2'
-import Check3 from'./Check3'
-export const A=createContext()
+import Check3 from './Check3'
+export const A = createContext()
 
 const Check1 = () => {
 
-    const hook = useState('YES')
+    const citizen = useState('NO')
+    const age = useState('NO')
 
-  return (
-      <>
-          <A.Provider value={hook}>
-              <Check2 />
-              <Check3/>
-           </A.Provider>
-      </>
-  )
+    return (
+        <>
+            <A.Provider value={[citizen, age]}>
+                <Check2 />
+                <Check3 />
+            </A.Provider>
+        </>
+    )
 }
 
 export default Check1
